@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimrodel Pub Restaurant</title>
+    <link rel="icon" href="/Modulo 2\Sesion 1\02 PrimeraWeb\img\n.png">
+    <!--
+    <link rel="icon" href="https://i.postimg.cc/TwYcR8sM/n.png">
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <img src="/Modulo 2\Sesion 1\02 PrimeraWeb\img\n.png">
+        <!--
+        <link rel="icon" href="https://i.postimg.cc/TwYcR8sM/n.png">
+        -->
+            <ul>
+                <li>Nuestros Productos</li>
+                <li>Sobre Nosotros</li>
+                <li><a href="#section2">Comuniquemonos</a></li>
+                <li><a href="#section3">Reserva</a></li>
+            </ul>
+    </header>
+    <section id="section1">
+        <h1>Nimrodel Pub Restaurant</h1>
+        <h2>Destacados de la semana</h2>
+        <div>
+            <img src="/Modulo 2\Sesion 1\02 PrimeraWeb\img\bebidas.jpg" width="500">
+            <!--
+            <img src="https://i.postimg.cc/W47nLpXw/bebidas.jpg" width="500">
+            -->
+            <h5>
+                GASEOSAS
+            </h5>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+        <div>
+            <img src="/Modulo 2\Sesion 1\02 PrimeraWeb\img\tablas.jpg" width="500">
+            <!--
+            <img src="https://i.postimg.cc/5yD5qX2b/tablas.jpg" width="500">
+            -->
+            <h5>
+                TABLAS
+            </h5>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+        <div>
+            <img src="/Modulo 2\Sesion 1\02 PrimeraWeb\img\shop.jpeg" width="500">
+            <!--
+            <img src="https://i.postimg.cc/rmnNsn6d/shop.jpg" width="500">
+            -->
+            <h5>
+                SHOP CERVEZA
+            </h5>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+    </section>
+    <section id="section2">
+        <h3>Comuniquemonos</h3>
+        <form>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="María Vargas" required>
+            </div> <br>
+            <div>
+                <label for="email">Correo</label>
+                <input type="text" id="email" name="email" placeholder="mariavargas@correo.com" required>
+            </div> <br>
+            <div>
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="951236874" pattern="[0-9]{9}" required>
+            </div> <br>
+            <div>
+                <label for="motive">Motivo</label>
+                <input type="text" id="motive" name="motive" required>
+            </div> <br>
+            <div>
+                <textarea name="comentarios" rows="10" cols="40"></textarea>
+            </div> <br>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+
+    <section id="section3">
+        <h3>Reserva</h3>
+        <form>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="xxx xxxxx" required>
+            </div> <br>
+            <div>
+                <label for="email">Correo</label>
+                <input type="text" id="email" name="email" placeholder="xxx@xxx.xx" required>
+            </div> <br>
+            <div>
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="xxxxxxxxx" pattern="[0-9]{9}" required>
+            </div> <br>
+            <div>
+                <label for="date">Fecha</label>
+                <input type="date" id="date" name="dateagend">
+            </div> <br>
+            <div>
+                <label for="hour">Hora</label>
+                <input type="time">
+            </div> <br>
+            <div>
+                <label for="assistants">Cantidad de Asistentes</label>
+                <input type="text">
+            </div> <br>
+            <div>
+                <input type="submit">
+            </div> <br>
+        </form>
+    </section>
+
+    <footer>
+        Todos los derechos reservados <b>&REG;</b>
+    </footer>
+</body>
+</html>

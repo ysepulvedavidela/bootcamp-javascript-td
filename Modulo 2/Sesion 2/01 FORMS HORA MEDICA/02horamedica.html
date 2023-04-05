@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Medica</title>
+</head>
+<body>
+    <section>
+        <form action="/action_page.php">
+            <label for="fname">NOMBRE</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <br>
+            <label for="direction">DIRECCIÓN</label><br>
+            <input type="text" id="direction" name="direction"><br>
+            <br>
+            <label for="medicspeciality">ESPECIALIDAD MEDICA</label><br>
+            <input list="medicspeciality" name="speciality">
+            <datalist id="medicspeciality">
+                <option value="MEDICINA INTERNA">
+                <option value="MEDICINA GENERAL">
+                <option value="TRAUMATOLOGIA">
+                <option value="NUTRICIONISTA">
+            </datalist><br>
+            <br>
+            <label for="date">FECHA</label><br>
+            <input type="date" id="date" name="dateagend"><br>
+            <br>
+            <label for="hour">HORA</label><br>
+            <input type="time"><br>
+            <br>
+            <label for="email">CORREO:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <br>
+            <input type="submit" value="CONFIRMAR">
+        </form>
+    </section>
+    
+</body>
+</html>
