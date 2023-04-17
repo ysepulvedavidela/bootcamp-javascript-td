@@ -3,12 +3,18 @@
 }
 
 /* HEADER */
-header{
-    background: url("https://i.postimg.cc/hPzzJNCB/fondo.jpg");
-    align-items: center;
-    padding: 40px;
-    width: 100%;
-    background-repeat: repeat;
+
+body, h1, h2, h3, h4, h5, p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.backGround {
+    width: 100vw;
+    background-image: url("https://i.postimg.cc/hPzzJNCB/fondo.jpg");
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .logo {
@@ -48,8 +54,7 @@ header{
 }
 
 .menu {
-    max-width: 350px;
-    height: 250px;
+    max-width: 100%
 }
 
 .titlefood {
@@ -137,7 +142,14 @@ footer .footer-content {
     color: #fff;
 }
 /* pantalla pequeña */
-@media (max-width: 555px) and (max-width:555px) {
+@media (max-width:440px) {
+    
+    .backGround{
+        background-position-x: left;
+        background-position-y: 5%;
+        background-repeat: repeat;
+        background-size: 100%;
+    }
 
     .title {
         font-size: 3.5em;
@@ -172,7 +184,13 @@ footer .footer-content {
 
 }
 /* pantalla mediana */
-@media (min-width:556px) and (max-width:1180px){
+@media (min-width:441px) and (max-width:991px){
+
+    .backGround{
+        background-position-x: left;
+        background-repeat: repeat;
+        background-size: 58%;
+    }
 
     .title {
         font-size: 4.5em;
@@ -190,10 +208,23 @@ footer .footer-content {
         border-top: solid;
     }
 
-    .section1, .tipo-servicios {
+    .section1   {
+        display: flex;
+        justify-content: center;
+    }
+    .tipo-servicios {
         flex-flow: column wrap;
-        width: 100vw;
         padding: 0px;
+        /*/border:1px solid blue;*/
+    }
+
+    .soda, .tables, .shop {
+        width: 600px;
+        /*/border:1px solid red;*/
+    }
+    
+    .menu {
+        width: 600px;
     }
 
     .section2 {display: none;}
@@ -201,23 +232,23 @@ footer .footer-content {
 
 }
 /* pantalla grande */
-@media (min-width:1181px){
+@media (min-width:992px){
 
     .section1   {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
     .tipo-servicios {
-        max-width:600px;
         width:100%;
         justify-content: center;
-        border:1px solid red;      
+        /*border:1px solid red;*/
+        display: flex;
+        flex-wrap: nowrap;     
     }
 
-    #soda, .soda    {
-        border:1px solid blue;
+    *#soda, .soda    {
+        /*border:1px solid blue;*/
         text-align: center;
         padding-top:8px;
         margin-top:5px;
@@ -227,7 +258,7 @@ footer .footer-content {
     }
 
     #tables, .tables    {
-        border:1px solid yellow;
+        /*border:1px solid yellow;*/
         text-align: center;
         padding-top:8px;
         margin-top:5px;
@@ -237,7 +268,7 @@ footer .footer-content {
     }
 
     #shop, .shop    {
-        border:1px solid green;
+        /*border:1px solid green;*/
         text-align: center;
         padding-top:8px;
         margin-top:5px;
@@ -246,10 +277,13 @@ footer .footer-content {
         margin-left: 5px;
     }
 
-    .shop img {
-        border:1px solid purple;
-        max-width: 800px;
-        max-width: 100%;
+    .soda, .tables, .shop {
+        width: 600px;
+    }
+
+    .menu {
+        width: 100%px;
+        height: 300px; 
     }
 
     .form-reservation, .form-comunicate {
