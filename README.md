@@ -1,4 +1,4 @@
-## [DESARROLLO DE APLICACIONES FULL STACK JAVASCRIPT TRAINEE V2.0](https://talentodigitalparachile.cl/s)
+## [DESARROLLO DE APLICACIONES FULL STACK JAVASCRIPT TRAINEE V2.0](https://talentodigitalparachile.cl/curso/desarrollo-de-aplicaciones-full-stack-javascript-trainee/)
 
 &nbsp;
 
