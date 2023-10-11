@@ -2,6 +2,6 @@
 
 &nbsp;
 
-![cert](DIPLOMA_BOOTCAMP_2023.png)
+![cert](diploma_bootcamp2023.png)
 
 * Este repositorio está escrito con fines de referencia y autodocumentación.
